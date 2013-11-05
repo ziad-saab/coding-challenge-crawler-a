@@ -43,6 +43,3 @@ if __name__ == '__main__':
         print 'Downloading departures to {0} for dates {1} through {2}'.format(
             args.output, args.startdate, args.enddate)
         """ Do something"""
-
-    else:
-        exit(-1)
