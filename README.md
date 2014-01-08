@@ -57,8 +57,8 @@ python run.py --extract departures --output departures.json --startdate 2013-11-
 
 # Non-functional requirements
 
-* the code should be written in Python and compatible with Python 2.7.
+* the code should be written in Javascript and compatible with NodeJS ~0.10
 * the code should be hosted on github, and the repo should be shared with Busbud and submitted as a pull request
 * the code should be written in a way that it can easily be extended to become a scheduled process that updates our
 database of departure
-* any packages required must be installable via `pip install -r requirements.txt`, see [pip](http://www.pip-installer.org/en/latest/)
+* any packages required must be installable via `npm install`, see [npm](https://npmjs.org/)

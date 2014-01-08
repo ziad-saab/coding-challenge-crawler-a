@@ -1,0 +1,14 @@
+{
+  "name": "coding-challenge-crawler",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Busbud coding challenge crawler",
+  "author": "Ziad Saab",
+  "dependencies": {
+    "request": "~2.31.0",
+    "cheerio": "~0.13.1",
+    "optimist": "~0.6.0",
+    "moment": "~2.5.0",
+    "async": "~0.2.9"
+  }
+}
