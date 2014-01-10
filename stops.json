@@ -1,0 +1,16 @@
+[
+    {
+        "stop_name": "Wadebridge",
+        "stop_location": "Goldsworthy Way Wadebridge, The Link Road, Cornwall England,",
+        "lat": 50.51773,
+        "long": -4.83952,
+        "id": "77131"
+    },
+    {
+        "stop_name": "Barnstaple",
+        "stop_location": " Barnstaple, bus station, Belle Meadow Road, Devon England,",
+        "lat": 51.07888,
+        "long": -4.05664,
+        "id": "41065"
+    }
+]

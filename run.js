@@ -11,6 +11,10 @@ var args = require('optimist')
     startdate: 'The beginning of the departure date range',
     enddate: 'The end of the departure date range'
   })
+  .default({
+    startdate: moment().startOf('day').format('YYYY-MM-DD'),
+    enddate: moment().startOf('day').add(6, 'days').format('YYYY-MM-DD')
+  })
   .check(function(args) {
     if (['stops','departures'].indexOf(args.extract) < 0) {
       throw new Error('extract must be one of [stops,departures]');
@@ -44,7 +48,29 @@ if (args.extract == 'stops') {
   });
 }
 else {
-  // TODO extract departures
-  console.error('Not implemented yet');
-  process.exit(1);
+  // Assume that the stops are located in stops.json in the cwd
+  fs.readFile('stops.json', function(err, res) {
+    if (err) {
+      console.error(err);
+      process.exit(1);
+    }
+    else {
+      var stops = JSON.parse(res);
+      crawler.extractDepartures(stops, args.startdate, args.enddate, function(err, res) {
+        if (err) {
+          console.error(err);
+          process.exit(1);
+        }
+        else {
+          var content = JSON.stringify(res, null, 4);
+          fs.writeFile(args.output, content, function(err, res) {
+            if (err) {
+              console.error(err);
+              process.exit(1);
+            }
+          });
+        }
+      });
+    }
+  });
 }

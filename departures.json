@@ -1,0 +1,110 @@
+{
+    "77131|41065|2014-01-16": [
+        {
+            "origin_stop": "Wadebridge",
+            "destination_stop": "Barnstaple",
+            "departure_time": "06:15",
+            "arrival_time": "13:00",
+            "duration": "6hrs 45min, 35 min wait (BIRMINGHAM (Coach Station))",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Wadebridge",
+            "destination_stop": "Barnstaple",
+            "departure_time": "07:45",
+            "arrival_time": "15:55",
+            "duration": "8hrs 10min",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Wadebridge",
+            "destination_stop": "Barnstaple",
+            "departure_time": "07:50",
+            "arrival_time": "15:05",
+            "duration": "7hrs 15min, 65 min wait (BIRMINGHAM (Coach Station))",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Wadebridge",
+            "destination_stop": "Barnstaple",
+            "departure_time": "10:00",
+            "arrival_time": "17:05",
+            "duration": "7hrs 5min, 45 min wait (Preston, Lancashire), 60 min wait (BIRMINGHAM (Coach Station))",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Wadebridge",
+            "destination_stop": "Barnstaple",
+            "departure_time": "10:00",
+            "arrival_time": "18:05",
+            "duration": "8hrs 5min",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Wadebridge",
+            "destination_stop": "Barnstaple",
+            "departure_time": "14:50",
+            "arrival_time": "20:50",
+            "duration": "6hrs , 55 min wait (BIRMINGHAM (Coach Station))",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Wadebridge",
+            "destination_stop": "Barnstaple",
+            "departure_time": "22:20",
+            "arrival_time": "09:1517 Jan 14",
+            "duration": "10hrs 55min, 260 min wait (BIRMINGHAM (Coach Station))",
+            "price": "£46.10"
+        }
+    ],
+    "41065|77131|2014-01-16": [
+        {
+            "origin_stop": "Barnstaple",
+            "destination_stop": "Wadebridge",
+            "departure_time": "08:30",
+            "arrival_time": "14:20",
+            "duration": "5hrs 50min, 60 min wait (BIRMINGHAM (Coach Station))",
+            "price": ""
+        },
+        {
+            "origin_stop": "Barnstaple",
+            "destination_stop": "Wadebridge",
+            "departure_time": "10:30",
+            "arrival_time": "18:05",
+            "duration": "7hrs 35min",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Barnstaple",
+            "destination_stop": "Wadebridge",
+            "departure_time": "11:30",
+            "arrival_time": "18:05",
+            "duration": "6hrs 35min, 45 min wait (BIRMINGHAM (Coach Station)), 55 min wait (Preston, Lancashire)",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Barnstaple",
+            "destination_stop": "Wadebridge",
+            "departure_time": "12:30",
+            "arrival_time": "19:55",
+            "duration": "7hrs 25min",
+            "price": ""
+        },
+        {
+            "origin_stop": "Barnstaple",
+            "destination_stop": "Wadebridge",
+            "departure_time": "13:30",
+            "arrival_time": "20:40",
+            "duration": "7hrs 10min, 95 min wait (BIRMINGHAM (Coach Station))",
+            "price": "£46.10"
+        },
+        {
+            "origin_stop": "Barnstaple",
+            "destination_stop": "Wadebridge",
+            "departure_time": "16:00",
+            "arrival_time": "22:35",
+            "duration": "6hrs 35min, 70 min wait (BIRMINGHAM (Coach Station))",
+            "price": "£46.10"
+        }
+    ]
+}
